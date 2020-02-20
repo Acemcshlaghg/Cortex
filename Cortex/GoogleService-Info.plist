@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>499401434387-43se3kipjii5a0pf5d1bvhogbe1j2mqo.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.499401434387-43se3kipjii5a0pf5d1bvhogbe1j2mqo</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAqG7Zdd4iP-KfKD7db9U9fgBkNHw6UyrU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>499401434387</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>DanielRosen.Cortex</string>
+	<key>PROJECT_ID</key>
+	<string>cortex-bbfec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>cortex-bbfec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:499401434387:ios:f2aa94240bb7684391a6e6</string>
+	<key>DATABASE_URL</key>
+	<string>https://cortex-bbfec.firebaseio.com</string>
+</dict>
+</plist>

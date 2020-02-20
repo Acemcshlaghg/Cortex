@@ -15,6 +15,8 @@
 		2074AA2823FEDF55001D1F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2074AA2623FEDF55001D1F27 /* LaunchScreen.storyboard */; };
 		2074AA3323FEDF55001D1F27 /* CortexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA3223FEDF55001D1F27 /* CortexTests.swift */; };
 		2074AA3E23FEDF55001D1F27 /* CortexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA3D23FEDF55001D1F27 /* CortexUITests.swift */; };
+		2074AA4C23FEDF94001D1F27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */; };
+		C2EE512E6ECC8F15EE221010 /* Pods_Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		2074AA3923FEDF55001D1F27 /* CortexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CortexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2074AA3D23FEDF55001D1F27 /* CortexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CortexUITests.swift; sourceTree = "<group>"; };
 		2074AA3F23FEDF55001D1F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2A5EFB7B4C877D917BF511F3 /* Pods-Cortex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.debug.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.debug.xcconfig"; sourceTree = "<group>"; };
+		4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.release.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.release.xcconfig"; sourceTree = "<group>"; };
+		8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cortex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2EE512E6ECC8F15EE221010 /* Pods_Cortex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +90,8 @@
 				2074AA3123FEDF55001D1F27 /* CortexTests */,
 				2074AA3C23FEDF55001D1F27 /* CortexUITests */,
 				2074AA1923FEDF54001D1F27 /* Products */,
+				96490C32DC83CC7E4FCBA8E5 /* Pods */,
+				5E33C94572A10CCDC9810C11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +114,7 @@
 				2074AA2123FEDF54001D1F27 /* Main.storyboard */,
 				2074AA2423FEDF55001D1F27 /* Assets.xcassets */,
 				2074AA2623FEDF55001D1F27 /* LaunchScreen.storyboard */,
+				2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */,
 				2074AA2923FEDF55001D1F27 /* Info.plist */,
 			);
 			path = Cortex;
@@ -128,6 +138,24 @@
 			path = CortexUITests;
 			sourceTree = "<group>";
 		};
+		5E33C94572A10CCDC9810C11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96490C32DC83CC7E4FCBA8E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A5EFB7B4C877D917BF511F3 /* Pods-Cortex.debug.xcconfig */,
+				4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2074AA4223FEDF55001D1F27 /* Build configuration list for PBXNativeTarget "Cortex" */;
 			buildPhases = (
+				CCAEAEC29B4BA82F37C36E9A /* [CP] Check Pods Manifest.lock */,
 				2074AA1423FEDF54001D1F27 /* Sources */,
 				2074AA1523FEDF54001D1F27 /* Frameworks */,
 				2074AA1623FEDF54001D1F27 /* Resources */,
+				9AEB688581489233ECC2DB08 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +265,7 @@
 				2074AA2823FEDF55001D1F27 /* LaunchScreen.storyboard in Resources */,
 				2074AA2523FEDF55001D1F27 /* Assets.xcassets in Resources */,
 				2074AA2323FEDF54001D1F27 /* Main.storyboard in Resources */,
+				2074AA4C23FEDF94001D1F27 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +284,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AEB688581489233ECC2DB08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cortex/Pods-Cortex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cortex/Pods-Cortex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cortex/Pods-Cortex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCAEAEC29B4BA82F37C36E9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cortex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2074AA1423FEDF54001D1F27 /* Sources */ = {
@@ -432,6 +505,7 @@
 		};
 		2074AA4323FEDF55001D1F27 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5EFB7B4C877D917BF511F3 /* Pods-Cortex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +524,7 @@
 		};
 		2074AA4423FEDF55001D1F27 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

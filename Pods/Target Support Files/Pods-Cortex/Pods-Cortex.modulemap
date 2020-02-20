@@ -1,0 +1,6 @@
+framework module Pods_Cortex {
+  umbrella header "Pods-Cortex-umbrella.h"
+
+  export *
+  module * { export * }
+}
