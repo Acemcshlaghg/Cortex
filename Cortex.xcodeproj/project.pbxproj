@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C18B4AD240049F6002396D4 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C18B4AC240049F6002396D4 /* SingUpViewController.swift */; };
-		1C18B4AF24004A16002396D4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C18B4AE24004A16002396D4 /* LogInViewController.swift */; };
 		2074AA1C23FEDF54001D1F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA1B23FEDF54001D1F27 /* AppDelegate.swift */; };
 		2074AA1E23FEDF54001D1F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */; };
 		2074AA2023FEDF54001D1F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA1F23FEDF54001D1F27 /* ViewController.swift */; };
@@ -19,6 +17,7 @@
 		2074AA3E23FEDF55001D1F27 /* CortexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA3D23FEDF55001D1F27 /* CortexUITests.swift */; };
 		2074AA4C23FEDF94001D1F27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */; };
 		20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA09D2400476F002B794E /* HomeScreenViewController.swift */; };
+		4D0185A824004A24009897E5 /* StudentDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0185A724004A24009897E5 /* StudentDashboardViewController.swift */; };
 		C2EE512E6ECC8F15EE221010 /* Pods_Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +59,7 @@
 		20EBA09D2400476F002B794E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		2A5EFB7B4C877D917BF511F3 /* Pods-Cortex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.debug.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.debug.xcconfig"; sourceTree = "<group>"; };
 		4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.release.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.release.xcconfig"; sourceTree = "<group>"; };
+		4D0185A724004A24009897E5 /* StudentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboardViewController.swift; sourceTree = "<group>"; };
 		8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cortex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -341,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2074AA2023FEDF54001D1F27 /* ViewController.swift in Sources */,
+				4D0185A824004A24009897E5 /* StudentDashboardViewController.swift in Sources */,
 				20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */,
 				1C18B4AF24004A16002396D4 /* LogInViewController.swift in Sources */,
 				1C18B4AD240049F6002396D4 /* SingUpViewController.swift in Sources */,
