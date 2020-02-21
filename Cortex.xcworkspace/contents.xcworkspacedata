@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:tutorDashboardViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:Cortex.xcodeproj">
    </FileRef>
    <FileRef
