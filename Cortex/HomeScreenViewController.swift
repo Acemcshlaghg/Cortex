@@ -9,10 +9,26 @@
 import UIKit
 
 class HomeScreenViewController: UIViewController {
+    let label = UILabel();
+    func setUpLabel(){
+           view.addSubview(label);
 
+           label.text = "label";
+           label.textColor = UIColor.blue;
+           label.translatesAutoresizingMaskIntoConstraints = false;
+           label.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true;
+           label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 300).isActive = true;
+           
+           label.widthAnchor.constraint(equalToConstant: 300).isActive = true;
+           label.heightAnchor.constraint(equalToConstant: 300).isActive = true;
+       }
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
         
+        super.viewDidLoad()
+        view.backgroundColor = UIColor.white;
+        print("working")
+        setUpLabel();
         // Do any additional setup after loading the view.
     }
     
