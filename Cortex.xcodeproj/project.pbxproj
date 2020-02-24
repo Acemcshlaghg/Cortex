@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C18B4B3240447C4002396D4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C18B4B2240447C4002396D4 /* SignUpViewController.swift */; };
 		2074AA1C23FEDF54001D1F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA1B23FEDF54001D1F27 /* AppDelegate.swift */; };
 		2074AA1E23FEDF54001D1F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */; };
 		2074AA2523FEDF55001D1F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2074AA2423FEDF55001D1F27 /* Assets.xcassets */; };
@@ -38,8 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C18B4AC240049F6002396D4 /* SingUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
 		1C18B4AE24004A16002396D4 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		1C18B4B2240447C4002396D4 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2074AA1823FEDF54001D1F27 /* Cortex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cortex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2074AA1B23FEDF54001D1F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,15 +117,13 @@
 				2074AA1B23FEDF54001D1F27 /* AppDelegate.swift */,
 				20EBA09D2400476F002B794E /* HomeScreenViewController.swift */,
 				2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */,
-				2074AA1F23FEDF54001D1F27 /* ViewController.swift */,
-				2074AA2123FEDF54001D1F27 /* Main.storyboard */,
 				4980751C24005445004DC3E3 /* tutorDatabaseViewController.swift */,
 				2074AA2423FEDF55001D1F27 /* Assets.xcassets */,
 				2074AA2623FEDF55001D1F27 /* LaunchScreen.storyboard */,
 				2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */,
 				2074AA2923FEDF55001D1F27 /* Info.plist */,
-				1C18B4AC240049F6002396D4 /* SingUpViewController.swift */,
 				1C18B4AE24004A16002396D4 /* LogInViewController.swift */,
+				1C18B4B2240447C4002396D4 /* SignUpViewController.swift */,
 			);
 			path = Cortex;
 			sourceTree = "<group>";
@@ -347,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2074AA2023FEDF54001D1F27 /* ViewController.swift in Sources */,
+				1C18B4B3240447C4002396D4 /* SignUpViewController.swift in Sources */,
 				4D0185A824004A24009897E5 /* StudentDashboardViewController.swift in Sources */,
 				4980751D24005445004DC3E3 /* tutorDatabaseViewController.swift in Sources */,
 				20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */,

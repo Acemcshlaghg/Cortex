@@ -1,14 +1,14 @@
 //
-//  SingUpViewController.swift
+//  SignUpViewController.swift
 //  Cortex
 //
-//  Created by Omri Brenner (student LM) on 2/21/20.
+//  Created by Omri Brenner (student LM) on 2/24/20.
 //  Copyright © 2020 Daniel Rosen (student LM). All rights reserved.
 //
 
 import UIKit
 
-class SingUpViewController: UIViewController {
+class SignUpViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
