@@ -16,9 +16,10 @@
 		2074AA3E23FEDF55001D1F27 /* CortexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2074AA3D23FEDF55001D1F27 /* CortexUITests.swift */; };
 		2074AA4C23FEDF94001D1F27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */; };
 		20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20EBA09D2400476F002B794E /* HomeScreenViewController.swift */; };
-		4980751D24005445004DC3E3 /* tutorDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */; };
+		4980751D24005445004DC3E3 /* TutorDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980751C24005445004DC3E3 /* TutorDashboardViewController.swift */; };
 		4980752124044DA2004DC3E3 /* studentDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980752024044DA1004DC3E3 /* studentDashboardViewController.swift */; };
-		4980752324061214004DC3E3 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980752224061214004DC3E3 /* settingsViewController.swift */; };
+		4980752324061214004DC3E3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980752224061214004DC3E3 /* SettingsViewController.swift */; };
+		49C0AD1D240833F900F4C22C /* TutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498075242406A0E4004DC3E3 /* TutorProfileViewController.swift */; };
 		4D91D5102407006800E71D70 /* TutorSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91D50F2407006800E71D70 /* TutorSearchViewController.swift */; };
 		4D91D5122407019E00E71D70 /* TutorSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91D5112407019E00E71D70 /* TutorSearchResultsViewController.swift */; };
 		4D91D514240701C100E71D70 /* DetailedTutorSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D91D513240701C100E71D70 /* DetailedTutorSearchResultsViewController.swift */; };
@@ -60,10 +61,10 @@
 		2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		20EBA09D2400476F002B794E /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		2A5EFB7B4C877D917BF511F3 /* Pods-Cortex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.debug.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.debug.xcconfig"; sourceTree = "<group>"; };
-		4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorDashboardViewController.swift; sourceTree = "<group>"; };
+		4980751C24005445004DC3E3 /* TutorDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDashboardViewController.swift; sourceTree = "<group>"; };
 		4980752024044DA1004DC3E3 /* studentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDashboardViewController.swift; sourceTree = "<group>"; };
-		4980752224061214004DC3E3 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
-		498075242406A0E4004DC3E3 /* tutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorProfileViewController.swift; sourceTree = "<group>"; };
+		4980752224061214004DC3E3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		498075242406A0E4004DC3E3 /* TutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorProfileViewController.swift; sourceTree = "<group>"; };
 		4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.release.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.release.xcconfig"; sourceTree = "<group>"; };
 		4D0185A724004A24009897E5 /* StudentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboardViewController.swift; sourceTree = "<group>"; };
 		4D91D50F2407006800E71D70 /* TutorSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorSearchViewController.swift; sourceTree = "<group>"; };
@@ -127,9 +128,9 @@
 				2074AA1B23FEDF54001D1F27 /* AppDelegate.swift */,
 				20EBA09D2400476F002B794E /* HomeScreenViewController.swift */,
 				2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */,
-				4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */,
-				4980752224061214004DC3E3 /* settingsViewController.swift */,
-				498075242406A0E4004DC3E3 /* tutorProfileViewController.swift */,
+				4980751C24005445004DC3E3 /* TutorDashboardViewController.swift */,
+				4980752224061214004DC3E3 /* SettingsViewController.swift */,
+				498075242406A0E4004DC3E3 /* TutorProfileViewController.swift */,
 				2074AA2423FEDF55001D1F27 /* Assets.xcassets */,
 				2074AA2623FEDF55001D1F27 /* LaunchScreen.storyboard */,
 				2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */,
@@ -362,9 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49C0AD1D240833F900F4C22C /* TutorProfileViewController.swift in Sources */,
 				1C18B4B3240447C4002396D4 /* SignUpViewController.swift in Sources */,
-				4980751D24005445004DC3E3 /* tutorDashboardViewController.swift in Sources */,
-				498075252406A0E4004DC3E3 /* tutorProfileViewController.swift in Sources */,
+				4980751D24005445004DC3E3 /* TutorDashboardViewController.swift in Sources */,
 				20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */,
 				4980752124044DA2004DC3E3 /* studentDashboardViewController.swift in Sources */,
 				4D91D5122407019E00E71D70 /* TutorSearchResultsViewController.swift in Sources */,
@@ -372,7 +373,7 @@
 				4D91D514240701C100E71D70 /* DetailedTutorSearchResultsViewController.swift in Sources */,
 				4D91D5102407006800E71D70 /* TutorSearchViewController.swift in Sources */,
 				2074AA1E23FEDF54001D1F27 /* SceneDelegate.swift in Sources */,
-				4980752324061214004DC3E3 /* settingsViewController.swift in Sources */,
+				4980752324061214004DC3E3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,11 @@
 
 import UIKit
 
-class tutorProfileViewController: UIViewController {
+class TutorProfileViewController: UIViewController {
 
     let settingsButton = UIButton()
+    let bioTextLabel = UILabel()
     let bioTextField = UITextField()
-    
     
     func setUpSettingsButton(){
            
@@ -38,20 +38,40 @@ class tutorProfileViewController: UIViewController {
            
     }
     
+    func setUpBioTextLabel(){
+        
+        // added it to the subivew
+        view.addSubview(bioTextLabel)
+        
+        // set up the properties
+        bioTextLabel.text = "BIO:"
+        bioTextLabel.textColor = UIColor.black
+        bioTextLabel.font = UIFont(name: "Helvetica", size: 25)
+               
+        // constraints
+        bioTextLabel.translatesAutoresizingMaskIntoConstraints = false
+        bioTextLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 25).isActive = true
+        bioTextLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100).isActive = true
+        
+        
+    }
+    
     func setUpBioTextField(){
         
         // added it to the subivew
         view.addSubview(bioTextField)
         
         // set up the properties
-        bioTextField.text = "BIO:"
-        bioTextField.textColor = UIColor.black
-        bioTextField.font = UIFont(name: "Helvetica", size: 25)
-               
+        bioTextField.backgroundColor = .white
+        bioTextField.borderStyle = UITextField.BorderStyle.roundedRect
+        bioTextField.placeholder = ""
+
         // constraints
-        bioTextField.translatesAutoresizingMaskIntoConstraints = false
-        bioTextField.centerXAnchor.constraint(equalToSystemSpacingAfter: view.centerXAnchor, multiplier: 0).isActive = true
-      //  bioTextField.centerYAnchor.constraint(equalTo: requestsButton.topAnchor, constant: -50).isActive = true
+        bioTextField.translatesAutoresizingMaskIntoConstraints = false;
+        bioTextField.centerXAnchor.constraint(equalTo: bioTextLabel.bottomAnchor, constant: 10).isActive = true;
+        bioTextField.topAnchor.constraint(equalTo: view.topAnchor, constant: 200).isActive = true
+        bioTextField.widthAnchor.constraint(equalToConstant: 200).isActive = true;
+        bioTextField.heightAnchor.constraint(equalToConstant: 30).isActive = true;
         
         
         
@@ -62,6 +82,8 @@ class tutorProfileViewController: UIViewController {
         super.viewDidLoad()
 
         setUpSettingsButton()
+        setUpBioTextLabel()
+        setUpBioTextField()
     }
     
 
