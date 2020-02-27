@@ -10,10 +10,10 @@
 
 import UIKit
 
-class tutorProfileViewController: UIViewController {
+class TutorProfileViewController: UIViewController {
 
     let settingsButton = UIButton()
-    let bioTextField = UITextField()
+    let bioTextLabel = UILabel()
     
     
     func setUpSettingsButton(){
@@ -38,22 +38,20 @@ class tutorProfileViewController: UIViewController {
            
     }
     
-    func setUpBioTextField(){
+    func setUpBioTextLabel(){
         
         // added it to the subivew
-        view.addSubview(bioTextField)
+        view.addSubview(bioTextLabel)
         
         // set up the properties
-        bioTextField.text = "BIO:"
-        bioTextField.textColor = UIColor.black
-        bioTextField.font = UIFont(name: "Helvetica", size: 25)
+        bioTextLabel.text = "BIO:"
+        bioTextLabel.textColor = UIColor.black
+        bioTextLabel.font = UIFont(name: "Helvetica", size: 25)
                
         // constraints
-        bioTextField.translatesAutoresizingMaskIntoConstraints = false
-        bioTextField.centerXAnchor.constraint(equalToSystemSpacingAfter: view.centerXAnchor, multiplier: 0).isActive = true
-      //  bioTextField.centerYAnchor.constraint(equalTo: requestsButton.topAnchor, constant: -50).isActive = true
-        
-        
+        bioTextLabel.translatesAutoresizingMaskIntoConstraints = false
+        bioTextLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 25).isActive = true
+        bioTextLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100).isActive = true
         
         
     }
@@ -62,6 +60,7 @@ class tutorProfileViewController: UIViewController {
         super.viewDidLoad()
 
         setUpSettingsButton()
+        setUpBioTextLabel()
     }
     
 

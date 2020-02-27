@@ -9,7 +9,7 @@
 
 import UIKit
 
-class settingsViewController: UIViewController {
+class SettingsViewController: UIViewController {
 
     let settingsButton = UIButton()
     
