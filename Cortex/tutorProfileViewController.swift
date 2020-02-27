@@ -14,7 +14,7 @@ class TutorProfileViewController: UIViewController {
 
     let settingsButton = UIButton()
     let bioTextLabel = UILabel()
-    
+    let bioTextField = UITextField()
     
     func setUpSettingsButton(){
            
@@ -56,11 +56,34 @@ class TutorProfileViewController: UIViewController {
         
     }
     
+    func setUpBioTextField(){
+        
+        // added it to the subivew
+        view.addSubview(bioTextField)
+        
+        // set up the properties
+        bioTextField.backgroundColor = .white
+        bioTextField.borderStyle = UITextField.BorderStyle.roundedRect
+        bioTextField.placeholder = ""
+
+        // constraints
+        bioTextField.translatesAutoresizingMaskIntoConstraints = false;
+        bioTextField.centerXAnchor.constraint(equalTo: bioTextLabel.bottomAnchor, constant: 10).isActive = true;
+        bioTextField.topAnchor.constraint(equalTo: view.topAnchor, constant: 200).isActive = true
+        bioTextField.widthAnchor.constraint(equalToConstant: 200).isActive = true;
+        bioTextField.heightAnchor.constraint(equalToConstant: 30).isActive = true;
+        
+        
+        
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setUpSettingsButton()
         setUpBioTextLabel()
+        setUpBioTextField()
     }
     
 
