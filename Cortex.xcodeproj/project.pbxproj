@@ -19,6 +19,7 @@
 		4980751D24005445004DC3E3 /* tutorDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */; };
 		4980752124044DA2004DC3E3 /* studentDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980752024044DA1004DC3E3 /* studentDashboardViewController.swift */; };
 		4980752324061214004DC3E3 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980752224061214004DC3E3 /* settingsViewController.swift */; };
+		498075252406A0E4004DC3E3 /* tutorProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498075242406A0E4004DC3E3 /* tutorProfileViewController.swift */; };
 		C2EE512E6ECC8F15EE221010 /* Pods_Cortex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorDashboardViewController.swift; sourceTree = "<group>"; };
 		4980752024044DA1004DC3E3 /* studentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentDashboardViewController.swift; sourceTree = "<group>"; };
 		4980752224061214004DC3E3 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		498075242406A0E4004DC3E3 /* tutorProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorProfileViewController.swift; sourceTree = "<group>"; };
 		4CD4C26C8DEBE5A9557D959C /* Pods-Cortex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cortex.release.xcconfig"; path = "Target Support Files/Pods-Cortex/Pods-Cortex.release.xcconfig"; sourceTree = "<group>"; };
 		4D0185A724004A24009897E5 /* StudentDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDashboardViewController.swift; sourceTree = "<group>"; };
 		8F8ACDEBBF74DE5AE7081002 /* Pods_Cortex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cortex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 				2074AA1D23FEDF54001D1F27 /* SceneDelegate.swift */,
 				4980751C24005445004DC3E3 /* tutorDashboardViewController.swift */,
 				4980752224061214004DC3E3 /* settingsViewController.swift */,
+				498075242406A0E4004DC3E3 /* tutorProfileViewController.swift */,
 				2074AA2423FEDF55001D1F27 /* Assets.xcassets */,
 				2074AA2623FEDF55001D1F27 /* LaunchScreen.storyboard */,
 				2074AA4B23FEDF94001D1F27 /* GoogleService-Info.plist */,
@@ -353,6 +356,7 @@
 			files = (
 				1C18B4B3240447C4002396D4 /* SignUpViewController.swift in Sources */,
 				4980751D24005445004DC3E3 /* tutorDashboardViewController.swift in Sources */,
+				498075252406A0E4004DC3E3 /* tutorProfileViewController.swift in Sources */,
 				20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */,
 				4980752124044DA2004DC3E3 /* studentDashboardViewController.swift in Sources */,
 				2074AA1C23FEDF54001D1F27 /* AppDelegate.swift in Sources */,
