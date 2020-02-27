@@ -15,6 +15,6 @@ class TutorSearchResultsViewController: UIViewController{
 
 
 override func viewDidLoad() {
-    <#code#>
+    super.viewDidLoad()
 }
 }
