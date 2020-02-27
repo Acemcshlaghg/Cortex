@@ -12,7 +12,7 @@ import UIKit
 class TutorSearchViewController: UIViewController{
     
     override func viewDidLoad() {
-        <#code#>
+        super.viewDidLoad()
     }
     
 }
