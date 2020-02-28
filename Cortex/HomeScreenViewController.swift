@@ -8,11 +8,13 @@
 
 import UIKit
 
+
 class HomeScreenViewController: UIViewController {
     
     let label = UILabel();
     let logInButton = UIButton()
     let SignUpButton = UIButton()
+    
 
     func setUpLogInButton(){
         view.addSubview(logInButton)
@@ -49,37 +51,32 @@ class HomeScreenViewController: UIViewController {
         SignUpButton.heightAnchor.constraint(equalToConstant: 50).isActive = true
     }
     
-    func setUpLabel(){
-           view.addSubview(label);
-
-           label.text = "label";
-           label.textColor = UIColor.blue;
-           label.translatesAutoresizingMaskIntoConstraints = false;
-           label.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0).isActive = true;
-           label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 300).isActive = true;
-           
-           label.widthAnchor.constraint(equalToConstant: 300).isActive = true;
-           label.heightAnchor.constraint(equalToConstant: 300).isActive = true;
-       }
     
     @objc func goToLogInViewController(){
-        
+        let rvc = LogInViewController()
+        let vc = UINavigationController(rootViewController: rvc)
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true, completion: nil)
     }
     
     @objc func goToSignUpViewController(){
-        
+        let rvc = SignUpViewController()
+        let vc = UINavigationController(rootViewController: rvc)
+        vc.modalPresentationStyle = .overFullScreen
+        present(vc, animated: true, completion: nil)
     }
+    
+    
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         view.backgroundColor = UIColor.white;
-        print("working")
-        setUpLabel();
         setUpSignUpButton()
         setUpLogInButton()
         // Do any additional setup after loading the view.
     }
+    
     
 
     /*
