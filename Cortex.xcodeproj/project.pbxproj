@@ -365,7 +365,7 @@
 			files = (
 				49C0AD1D240833F900F4C22C /* TutorProfileViewController.swift in Sources */,
 				1C18B4B3240447C4002396D4 /* SignUpViewController.swift in Sources */,
-				4980751D24005445004DC3E3 /* TutorDashboardViewController.swift in Sources */,
+				4980751D24005445004DC3E3 /* tutorDashboardViewController.swift in Sources */,
 				20EBA09E2400476F002B794E /* HomeScreenViewController.swift in Sources */,
 				4980752124044DA2004DC3E3 /* studentDashboardViewController.swift in Sources */,
 				4D91D5122407019E00E71D70 /* TutorSearchResultsViewController.swift in Sources */,
