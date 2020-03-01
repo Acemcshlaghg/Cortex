@@ -13,7 +13,7 @@ class TutorSearchViewController: UIViewController, UIPickerViewDelegate, UIPicke
     
     let titleLabel = UILabel()
     let classPicker = UIPickerView()
-    let classArray = [String]()
+    let classArray = ["Math", "English", "Computer Science", "Science", "Spanish", "Latin"]
     
     func setUpLabel(){
         view.addSubview(titleLabel)
@@ -42,6 +42,9 @@ class TutorSearchViewController: UIViewController, UIPickerViewDelegate, UIPicke
     
     func setUpPickerView(){
         view.addSubview(classPicker)
+        classPicker.delegate = self
+        classPicker.dataSource = self
+        
         
 //        constraints
         classPicker.translatesAutoresizingMaskIntoConstraints = false
@@ -56,6 +59,7 @@ class TutorSearchViewController: UIViewController, UIPickerViewDelegate, UIPicke
         super.viewDidLoad()
         view.backgroundColor = .gray
         setUpLabel()
+        setUpPickerView()
     }
     
 }
