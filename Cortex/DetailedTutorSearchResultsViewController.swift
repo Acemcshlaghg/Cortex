@@ -27,46 +27,62 @@ class DetailedTutorSearchResultsViewController: UIViewController{
         //        properties
         
         //        Name
-        nameLabel.text = "Mr. Swope"
+        nameLabel.text = " Mr. Swope"
         nameLabel.textColor = UIColor.black
-        nameLabel.font = UIFont(name: "Helvetica", size: 25)
+        nameLabel.font = UIFont(name: "Helvetica", size: 35)
+        nameLabel.layer.borderColor = UIColor.black.cgColor
+        nameLabel.layer.borderWidth = 1.0
         
         //        Classes
-        classesLabel.text = "Computer Science"
+        classesLabel.text = " Computer Science"
         classesLabel.textColor = UIColor.black
         classesLabel.font = UIFont(name: "Helvetica", size: 25)
+        classesLabel.layer.borderColor = UIColor.black.cgColor
+        classesLabel.layer.borderWidth = 1.0
         
         //        Bio
-        bioLabel.text = "BIO"
+        bioLabel.text = " BIO"
         bioLabel.textColor = .black
         bioLabel.font = UIFont(name: "Helvetica", size: 25)
+        bioLabel.layer.borderColor = UIColor.black.cgColor
+        bioLabel.layer.borderWidth = 1.0
+    
         
         //      Contact Info
-        contactInfoLabel.text = "Phone: ______ \n Email: ______"
+        contactInfoLabel.text = " Email: ______"
         contactInfoLabel.textColor = .black
         contactInfoLabel.font = UIFont(name: "Helvetica", size: 25)
+        contactInfoLabel.layer.borderColor = UIColor.black.cgColor
+        contactInfoLabel.layer.borderWidth = 1.0
         
         //        Constraints
         classesLabel.translatesAutoresizingMaskIntoConstraints = false
         bioLabel.translatesAutoresizingMaskIntoConstraints = false
         contactInfoLabel.translatesAutoresizingMaskIntoConstraints = false
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
         
         //        name
-        nameLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 100).isActive = true
-        nameLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50).isActive = true
-        nameLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 150).isActive = true
+        nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        nameLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: -100).isActive = true
+        nameLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        nameLabel.widthAnchor.constraint(equalToConstant: 300).isActive = true
+        
+        
         //      classes
-        classesLabel.topAnchor.constraint(equalTo: nameLabel.topAnchor, constant: 100).isActive = true
-        classesLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50).isActive = true
-        classesLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 150).isActive = true
+        classesLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        classesLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
+        classesLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        classesLabel.widthAnchor.constraint(equalToConstant: 300).isActive = true
+        
         //        bio
-        bioLabel.topAnchor.constraint(equalTo: classesLabel.topAnchor, constant: 100).isActive = true
-        bioLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50).isActive = true
-        bioLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 150).isActive = true
+        bioLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        bioLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 100).isActive = true
+        bioLabel.widthAnchor.constraint(equalToConstant: 300).isActive = true
+    
         //    Contact Info
-        contactInfoLabel.topAnchor.constraint(equalTo: bioLabel.topAnchor, constant: 400).isActive = true
-        contactInfoLabel.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50).isActive = true
-        contactInfoLabel.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 150).isActive = true
+        contactInfoLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        contactInfoLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 200).isActive = true
+        contactInfoLabel.widthAnchor.constraint(equalToConstant: 300).isActive = true
         
     }
     
@@ -81,6 +97,7 @@ class DetailedTutorSearchResultsViewController: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .gray
         setUpLabels()
         setUpProfilePicture()
     }
